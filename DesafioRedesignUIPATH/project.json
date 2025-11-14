@@ -1,0 +1,67 @@
+{
+  "name": "DesafioRedesignRPA",
+  "projectId": "f72cec16-0067-4e31-bed3-ac4d7c1f92c5",
+  "description": "Desafio: Construir duas automações, a primeira irá extrarir todas as informações da tabela do site Report: Opportunities e enviá-los a uma fila no UiPath Orchestrator. Após isso, será criado a segunda automação que irá pegar as informações da mesma fila e cadastrá-las no Sistema Forms. Apenas item com origem nos USA e Germany.\r\nAo final, enviará um e-mail indicando a conclusão do processo.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[3.3.1]",
+    "UiPath.Mail.Activities": "[2.5.10]",
+    "UiPath.System.Activities": "[25.10.3]",
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.UIAutomation.Activities": "[25.10.19]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.1.0",
+  "projectVersion": "1.0.5",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "5137d705-bb5c-4a52-baa0-b852facaad55",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Project\\AutomacaoImportarFila\\ImportarParaFila.xaml",
+      "uniqueId": "9727335a-16dd-4173-a142-b77fedb1362c",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

@@ -1,0 +1,6 @@
+{
+  "Name": "DesafioRedesignRPA",
+  "ProjectType": "Process",
+  "Description": "Desafio: Construir duas automações, a primeira irá extrarir todas as informações da tabela do site Report: Opportunities e enviá-los a uma fila no UiPath Orchestrator. Após isso, será criado a segunda automação que irá pegar as informações da mesma fila e cadastrá-las no Sistema Forms. Apenas item com origem nos USA e Germany.\r\nAo final, enviará um e-mail indicando a conclusão do processo.",
+  "MainFile": "Main.xaml"
+}
